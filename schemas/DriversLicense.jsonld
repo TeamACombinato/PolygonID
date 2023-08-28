@@ -1,0 +1,39 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "DriversLicense": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:806023f3-9fb1-4c1b-909b-210d2856b40e#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "license number": {
+                        "@id": "polygon-vocab:license number",
+                        "@type": "xsd:double"
+                    },
+                    "street address": {
+                        "@id": "polygon-vocab:street address",
+                        "@type": "xsd:string"
+                    },
+                    "city": {
+                        "@id": "polygon-vocab:city",
+                        "@type": "xsd:string"
+                    },
+                    "prefecture": {
+                        "@id": "polygon-vocab:prefecture",
+                        "@type": "xsd:string"
+                    },
+                    "name": {
+                        "@id": "polygon-vocab:name",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:7bed21a5-4e25-4d97-9718-bb07f245f6c4"
+            }
+        }
+    ]
+}
