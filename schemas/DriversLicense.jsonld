@@ -11,12 +11,12 @@
                     "@protected": true,
                     "polygon-vocab": "urn:uuid:806023f3-9fb1-4c1b-909b-210d2856b40e#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "license number": {
-                        "@id": "polygon-vocab:license number",
+                    "license-number": {
+                        "@id": "polygon-vocab:license-number",
                         "@type": "xsd:double"
                     },
-                    "street address": {
-                        "@id": "polygon-vocab:street address",
+                    "street-address": {
+                        "@id": "polygon-vocab:street-address",
                         "@type": "xsd:string"
                     },
                     "city": {

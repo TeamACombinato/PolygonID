@@ -4,7 +4,7 @@
             "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
         },
         "type": "DriversLicense",
-        "version": "0.1"
+        "version": "0.2"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "description": "DriversLicense",
@@ -14,14 +14,14 @@
             "description": "Stores the data of the credential",
             "title": "Credential subject",
             "properties": {
-                "license number": {
-                    "description": "license number",
-                    "title": "license number",
+                "license-number": {
+                    "description": "license-number",
+                    "title": "license-number",
                     "type": "number"
                 },
-                "street address": {
-                    "description": "street address",
-                    "title": "street address",
+                "street-address": {
+                    "description": "street-address",
+                    "title": "street-address",
                     "type": "string"
                 },
                 "city": {
@@ -47,8 +47,8 @@
                 }
             },
             "required": [
-                "license number",
-                "street address",
+                "license-number",
+                "street-address",
                 "city",
                 "prefecture",
                 "name"
