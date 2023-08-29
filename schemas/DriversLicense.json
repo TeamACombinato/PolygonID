@@ -1,5 +1,5 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "object",
     "$metadata": {
         "uris": {
@@ -14,8 +14,8 @@
         "type",
         "issuanceDate",
         "credentialSubject",
-        "credentialSchema"
-        "issuer",
+        "credentialSchema",
+        "issuer"
     ],
     "description": "DriversLicense",
     "title": "DriversLicense",
@@ -64,6 +64,11 @@
             "type": "string"
         },
         "credentialSchema": {
+            "type": "object",
+            "required": [
+                "id",
+                "type"
+            ],
             "properties": {
                 "id": {
                     "format": "uri",
@@ -72,12 +77,7 @@
                 "type": {
                     "type": "string"
                 }
-            },
-            "required": [
-                "id",
-                "type"
-            ],
-            "type": "object"
+            }
         },
         "credentialSubject": {
             "type": "object",
