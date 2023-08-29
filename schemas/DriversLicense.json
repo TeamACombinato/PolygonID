@@ -6,7 +6,6 @@
             "jsonLdContext": "https://raw.githubusercontent.com/TeamACombinato/PolygonID/main/schemas/DriversLicense.jsonld",
             "jsonSchema": "https://raw.githubusercontent.com/TeamACombinato/PolygonID/main/schemas/DriversLicense.json"
         }
-        "version": "0.2"
     },
     "required": [
         "@context",
@@ -17,8 +16,6 @@
         "credentialSchema",
         "issuer"
     ],
-    "description": "DriversLicense",
-    "title": "DriversLicense",
     "properties": {
         "@context": {
             "type": [
@@ -45,23 +42,23 @@
                 "object"
             ],
             "format": "uri",
-            "properties": {
-                "id": {
-                    "format": "uri",
-                    "type": "string"
-                }
-            },
             "required": [
                 "id"
-            ]
+            ],
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "format": "uri"
+                }
+            }
         },
         "issuanceDate": {
-            "format": "date-time",
-            "type": "string"
+            "type": "string",
+            "format": "date-time"
         },
         "expirationDate": {
-            "format": "date-time",
-            "type": "string"
+            "type": "string",
+            "format": "date-time"
         },
         "credentialSchema": {
             "type": "object",
@@ -81,8 +78,6 @@
         },
         "credentialSubject": {
             "type": "object",
-            "description": "Stores the data of the credential",
-            "title": "Credential subject",
             "required": [
                 "license-number",
                 "street-address",
@@ -92,27 +87,22 @@
             ],
             "properties": {
                 "license-number": {
-                    "description": "license-number",
                     "title": "license-number",
                     "type": "number"
                 },
                 "street-address": {
-                    "description": "street-address",
                     "title": "street-address",
                     "type": "string"
                 },
                 "city": {
-                    "description": "city",
                     "title": "city",
                     "type": "string"
                 },
                 "prefecture": {
-                    "description": "prefecture",
                     "title": "prefecture",
                     "type": "string"
                 },
                 "name": {
-                    "description": "name",
                     "title": "name",
                     "type": "string"
                 },
