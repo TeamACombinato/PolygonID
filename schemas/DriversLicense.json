@@ -2,6 +2,7 @@
     "$metadata": {
         "uris": {
             "jsonLdContext": "https://raw.githubusercontent.com/TeamACombinato/PolygonID/main/schemas/DriversLicense.jsonld"
+            "jsonSchema": "https://raw.githubusercontent.com/TeamACombinato/PolygonID/main/schemas/DriversLicense.json"
         },
         "type": "DriversLicense",
         "version": "0.2"
