@@ -9,7 +9,7 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:806023f3-9fb1-4c1b-909b-210d2856b40e#",
+                    "polygon-vocab": "https://github.com/TeamACombinato/PolygonID/blob/main/schemas/DriversLicense.md#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "license-number": {
                         "@id": "polygon-vocab:license-number",
@@ -32,7 +32,7 @@
                         "@type": "xsd:string"
                     }
                 },
-                "@id": "urn:uuid:7bed21a5-4e25-4d97-9718-bb07f245f6c4"
+                "@id": "https://raw.githubusercontent.com/TeamACombinato/PolygonID/main/schemas/DriversLicense.jsonld#DriversLicense"
             }
         }
     ]
