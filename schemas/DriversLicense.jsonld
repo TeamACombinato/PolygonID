@@ -1,13 +1,14 @@
 {
     "@context": [
         {
-            "@protected": true,
             "@version": 1.1,
+            "@protected": true,
             "id": "@id",
             "type": "@type",
             "DriversLicense": {
+                "@id": "https://raw.githubusercontent.com/TeamACombinato/PolygonID/main/schemas/DriversLicense.jsonld#DriversLicense",
                 "@context": {
-                    "@propagate": true,
+                    "@version": 1.1,
                     "@protected": true,
                     "polygon-vocab": "https://github.com/TeamACombinato/PolygonID/blob/main/schemas/DriversLicense.md#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
@@ -31,8 +32,7 @@
                         "@id": "polygon-vocab:name",
                         "@type": "xsd:string"
                     }
-                },
-                "@id": "https://raw.githubusercontent.com/TeamACombinato/PolygonID/main/schemas/DriversLicense.jsonld#DriversLicense"
+                }
             }
         }
     ]
