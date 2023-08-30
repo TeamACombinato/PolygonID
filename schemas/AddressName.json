@@ -1,7 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/TeamACombinato/PolygonID/main/schemas/AddressName.jsonld"
         },
         "version": "1.0",
         "type": "AddressName"
